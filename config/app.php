@@ -166,6 +166,8 @@ return [
         /*
          * Package Service Providers...
          */
+        
+        Laravel\Scout\ScoutServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -177,6 +179,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         MercurySeries\Flashy\FlashyServiceProvider::class,
+
       
 
     ],

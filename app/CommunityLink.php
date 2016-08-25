@@ -3,10 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Scout\Searchable;
 
 class CommunityLink extends Model
 {
     
+    use Searchable;
 
 	protected $fillable =['category_id', 'title', 'link', 'user_id', 'approved'];
 
